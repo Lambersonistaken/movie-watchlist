@@ -47,7 +47,6 @@ header h1:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;
     margin-top: 1.5rem;
 }
 
@@ -60,7 +59,7 @@ header h1:hover {
     padding: 12px 20px;
     font-weight: 600;
     border-radius: 6px 0 0px 6px;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 0px 1px #D1D5DB;
 }
 
 .search-box-container input::placeholder {
@@ -86,9 +85,25 @@ header h1:hover {
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 500;
-    box-shadow: 0px 0px 0px 2.5px #D1D5DB;
+    margin-left: .2rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 0px 0px 1.4px #D1D5DB;
     cursor: pointer;
 }
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.search-box-container button:hover {
+    background-color: #f11e0f;
+    color: white;
+}
+
 
 
 @media (max-width: 600px) {
@@ -106,7 +121,7 @@ header h1:hover {
     }
 
     .search-box-container {
-        margin-top: 10px;
+        margin-top: 1.5rem;
     }
 
     .search-box-container input {

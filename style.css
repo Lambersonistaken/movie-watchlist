@@ -145,6 +145,14 @@ header h1:hover {
     margin-top: -.3rem;
 }
 
+#watchlist-no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
 .add-container {
     display: flex;
     gap: 1rem;

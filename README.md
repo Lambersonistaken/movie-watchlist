@@ -79,6 +79,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ---
 
 You can customize the repository link, license, or any other sections as needed. If you want to add a video below the screenshots section, you can include the following:
-
-### Video Demo
-![Video Demo](./project-video.mp4)

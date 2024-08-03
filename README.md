@@ -1,6 +1,4 @@
-Here's a README for your movie watchlist project, similar to the one you provided:
 
----
 
 # Movie Watchlist App
 

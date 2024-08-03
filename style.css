@@ -117,6 +117,7 @@ header h1:hover {
     margin-top: 2rem;
 }
 
+
 .poster {
     width: 10rem;
     object-fit: cover;
@@ -130,6 +131,22 @@ header h1:hover {
     padding-bottom: 1rem;
 }
 
+.movie-w {
+    display: flex;
+    gap: 1.5rem;
+    border-bottom: 2px solid #D1D5DB;
+    padding-bottom: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 .movie h3 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -141,6 +158,11 @@ header h1:hover {
 }
 
 .add-icon {
+    width: 1.2rem;
+    margin-top: -.3rem;
+}
+
+.remove-icon {
     width: 1.2rem;
     margin-top: -.3rem;
 }

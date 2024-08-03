@@ -89,7 +89,7 @@ if (watchlistContainer && watchlistBody && watchlistNoData) {
             const movie = JSON.parse(localStorage.getItem(movieKey));
 
             const movieDiv = document.createElement('div');
-            movieDiv.classList.add('movie');
+            movieDiv.classList.add('movie-w');
 
             movieDiv.innerHTML = `
                 <img class="poster" src="${movie.Poster}" alt="${movie.Title}">
@@ -105,6 +105,7 @@ if (watchlistContainer && watchlistBody && watchlistNoData) {
                     </div>
                 </div>
             `;
+
 
             const removeIcon = movieDiv.querySelector('.remove-icon');
             removeIcon.addEventListener('click', function () {

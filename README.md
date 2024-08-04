@@ -2,7 +2,7 @@
 
 # Movie Watchlist App
 
-This project is a responsive Movie Watchlist web application that allows users to search for movies using the OMDB API, add them to a watchlist, and view the watchlist on a separate page. The app is created as part of a learning exercise.
+This project is a responsive Movie Watchlist web application that allows users to search for movies using the OMDB API, add them to a watchlist, and view the watchlist on a separate page. The app is created as part of a learning exercise Scrimba course.
 
 ## Screenshots
 
